@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Status colors */
+.status-running {
+  color: green;
+  font-weight: bold;
+}
+
+.status-stopped {
+  color: red;
+  font-weight: bold;
+}
+
+.status-completed {
+  color: gray;
+  font-weight: bold;
+}
+
+input {
+  margin: 0 4px;
+}
