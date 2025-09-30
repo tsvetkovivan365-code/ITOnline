@@ -31,7 +31,7 @@ const UserInput = () => {
         setUserInput((prevUserInput) => (
             {
             ...prevUserInput,
-            [inputIdentifier]: newValue
+            [inputIdentifier]: +newValue
             }
         ));
     }; 
