@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast player</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9b62565271.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+     <section class="nav-wrapper">
+        <nav class="nav">
+            <h1 class="nav-title">Podcast Player</h1>
+            <i class="fas fas-solid fa-microphone-lines"></i>
+        </nav>
+     </section>
+
+     <section class="page-wrapper">
+        <!--Search container-->
+        <section class="search-container">
+            <!--Search history-->
+            <section class="custom-select">
+                <select name="search-history" id="search-history" title="Search History">
+                    <option value="">Select a Previous Search</option>
+                </select>
+            </section>
+            <!--Search Input-->
+            <input type="text" id="search-input" placeholder="Search by podcast/topic">
+            <!--Search Buttons-->
+            <section class="search-buttons">
+                <button type="button" id="search-button">Search</button>
+                <button type="button" id="reset-button">Clear History</button>
+            </section>
+        </section>
+
+        <!--Main container-->
+        <section class="main-container">
+
+        </section>
+
+        <!--Player container-->
+        <section class="player-container">
+            <section class="player">
+
+            </section>
+
+            <section class="queue">
+
+            </section>
+        </section>
+     </section>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>

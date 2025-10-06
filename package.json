@@ -1,0 +1,18 @@
+{
+  "name": "podcast_player",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ivan",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
