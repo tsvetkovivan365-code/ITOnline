@@ -13,6 +13,11 @@
         <nav class="nav">
             <h1 class="nav-title">Podcast Player</h1>
             <i class="fas fas-solid fa-microphone-lines"></i>
+            <!--Mobie navigation-->
+            <section class="nav-list">
+                <span id="search-link" class="selected">Search</span>
+                <span id="listen-link">Listen</span>
+            </section>
         </nav>
      </section>
 
@@ -43,7 +48,7 @@
             <!--Cards container-->
             <section class="cards-container">
                 <section class="card">
-                    <img src="./1312585-575621381.png" alt="Podcast Image">
+                    <img src="./podcast-img.png" alt="Podcast Image">
                     <section class="card-content">
                         <h3>Podcast Title</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur harum voluptates non fugit dicta earum labore autem, saepe nemo, eos quasi quisquam commodi iusto dignissimos provident atque illum molestiae.
@@ -58,7 +63,7 @@
                     </section>
                 </section>
                 <section class="card">
-                    <img src="./1312585-575621381.png" alt="Podcast Image">
+                    <img src="podcast-img.png" alt="Podcast Image">
                     <section class="card-content">
                         <h3>Podcast Title</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur harum voluptates non fugit dicta earum labore autem, saepe nemo, eos quasi quisquam commodi iusto dignissimos provident atque illum molestiae.
@@ -73,7 +78,7 @@
                     </section>
                 </section>
                 <section class="card">
-                    <img src="./1312585-575621381.png" alt="Podcast Image">
+                    <img src="podcast-img.png" alt="Podcast Image">
                     <section class="card-content">
                         <h3>Podcast Title</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur harum voluptates non fugit dicta earum labore autem, saepe nemo, eos quasi quisquam commodi iusto dignissimos provident atque illum molestiae.
@@ -93,11 +98,66 @@
         <!--Player container-->
         <section class="player-container">
             <section class="player">
-
+                <!-- Image -->
+                <section class="img-container">
+                    <img id="image" src="./podcast-img.png" alt="Album Art">
+                </section>
+                <!--Title container-->
+                <section class="title-container">
+                    <h2 id="title">Podcast Title</h2>
+                    <h3 id="date-published">Date Published</h3>
+                </section>
+                <!--Audio Element-->
+                <audio src=""></audio>
+                <section class="controls-container">
+                    <!-- Progress -->
+                    <section class="progress-container" id="progress-container">
+                        <section class="progress" id="progress"></section>
+                        <section class="duration-wrapper">
+                            <span id="current-time">0:00</span>
+                            <span id="duration">0:00</span>
+                        </section>
+                    </div>
+                    <!-- Controls -->
+                    <section class="player-controls">
+                        <i class="fas fa-backward" id="prev" title="-10 seconds"></i>
+                        <i class="fas fa-play main-button" id="play" title="Play"></i>
+                        <i class="fas fa-forward" id="next" title="+10 seconds"></i>
+                    </section>
+                </section>
             </section>
-
-            <section class="queue">
-
+        </section>
+        <!--Queue-->
+        <section class="queue">
+            <section class="queue-item">
+                <img src="./podcast-img.png" alt="Episode Title">
+                <section class="queue-content">
+                    <h3>Episode Title is going to go here</h3>
+                    <section class="icon-container">
+                        <i class="fas fa-play-circle" title="Play Podcast"></i>
+                        <i class="fas fa-trash-alt" title="Remove from queue"></i>
+                    </section>
+                </section>
+            </section>
+            <section class="queue-item">
+                <img src="./podcast-img.png" alt="Episode Title">
+                <section class="queue-content">
+                    <h3>Episode Title is going to go here</h3>
+                    <section class="icon-container">
+                        <i class="fas fa-play-circle" title="Play Podcast"></i>
+                        <i class="fas fa-trash-alt" title="Remove from queue"></i>
+                    </section>
+                </section>
+            </section>
+            <section class="queue-item">
+                <img src="./podcast-img.png" alt="Episode Title">
+                <section class="queue-content">
+                    <h3>Episode Title is going to go here</h3>
+                    <section class="icon-container">
+                        <i class="fas fa-play-circle" title="Play Podcast"></i>
+                        <i class="fas fa-trash-alt" title="Remove from queue"></i>
+                    </section>
+                </section>
             </section>
         </section>
      </section>
