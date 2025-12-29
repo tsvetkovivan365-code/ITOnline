@@ -49,7 +49,7 @@ export default function Game() {
 function Board({ xIsNext, squares, onPlay }) {
 
   function handleClick(i) {
-    if (squares[i] || calculateWinner[squares]) {
+    if (squares[i] || calculateWinner(squares)) {
       return;
     }
 
