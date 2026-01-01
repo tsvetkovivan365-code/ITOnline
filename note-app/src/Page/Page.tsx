@@ -26,7 +26,7 @@ export default function Page() {
         setNodes(newNodes);
     }
 
-    const changeNodeValue = (index: number, value: string) {
+    const changeNodeValue = (index: number, value: string) => {
         const newNodes = [...nodes];
         newNodes[index].value = value;
         setNodes(newNodes);
