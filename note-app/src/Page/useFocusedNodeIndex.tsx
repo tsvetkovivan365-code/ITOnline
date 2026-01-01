@@ -1,7 +1,8 @@
 import { useState, useEffect, type Dispatch, type SetStateAction } from 'react';
 import type { NodeData } from '../utils/types';
+
 type useFocusedNodeIndexProps = {
-    node: NodeData[];
+    nodes: NodeData[];
 }
 
 export default function useFocusedNodeIndex({nodes}: useFocusedNodeIndexProps): [number, Dispatch<SetStateAction<number>>] {
